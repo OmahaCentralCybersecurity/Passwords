@@ -22,10 +22,7 @@ letters = string.ascii_lowercase
 - Create a function `generate` that has parameter of length that determines the length.  
 - Call `generate` and test your outputs.  
 
-- Test your random passwords by importing and using the file: PasswordCracker.py
-- Note the time it takes for given password lengths ... there might not be enough time ...
 
 
-Questions:  
 
 
