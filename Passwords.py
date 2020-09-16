@@ -5,10 +5,7 @@ import string
 def generate(length):
   pass
 
-# import the password cracker file
-from PasswordCracker import *
 
-# the function password_crack now becomes available.  
-# pass the generated password 
+generate()
 
 
