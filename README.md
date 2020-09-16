@@ -2,7 +2,7 @@
 Create a random password generator and then use various methods to crack it.  
 
 ## Random Password Generator
-Create a Python program that generates a password of random letters and characters.  For simplicity we will make our first password generator take only lower case letters. We can eventually add on uppercase, digits and puncuation.  
+Create a Python program that generates a password of random letters and characters. Include lowercase, uppercase and digits and optionally, puncutation.  
 
 Instead of intializing a string or list that contains them, python has library `string` that can be imported.  Some of the functions that `string` includes is:
 
