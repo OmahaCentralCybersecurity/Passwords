@@ -9,7 +9,8 @@ def generate(length):
   for i in range(length):
     rand = random.randint(0, len(characters))
     password = password + characters[rand]
-    return password
+    
+  return password
 
 generate()
 
