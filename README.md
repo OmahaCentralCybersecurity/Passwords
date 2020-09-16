@@ -20,7 +20,14 @@ letters = string.ascii_lowercase
 
 ## Directions:
 - Create a function `generate` that has parameter of length that determines the length.  
+- Your function should include all letters and digits (optionally include punctuation)
+- It should randomly pick from available characters. 
 - Call `generate` and test your outputs.  
+- Test `generate` by prompting for user input
+
+
+## Next Class:
+We will use generate passwords and see how long they take to be brute-forced by various password - crackers 
 
 
 
