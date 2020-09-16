@@ -19,7 +19,7 @@ letters = string.ascii_lowercase
 ```
 
 ## Directions:
-- Create a function `generate` that has parameter of length that determines the length.  
+- Create a function `generate` that has parameter of length that determines the length of the password. 
 - Your function should include all letters and digits (optionally include punctuation)
 - It should randomly pick from available characters. 
 - Call `generate` and test your outputs.  
