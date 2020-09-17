@@ -1,2 +1,2 @@
 language = "python3"
-run = "python BruteForce.py"
+run = "python DictionaryAttack.py"
