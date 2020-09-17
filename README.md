@@ -33,6 +33,8 @@ In this lab you will test two common methods to password cracking: brute force a
 
 
 ## Dictionary Attack  
+h/t [fendy Hackernoon article](https://hackernoon.com/i-cracked-40000-passwords-with-python-yours-might-have-been-one-of-them-3fr32je)
+
 
 
 
