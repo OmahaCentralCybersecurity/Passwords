@@ -18,17 +18,21 @@ letters = string.ascii_lowercase
 
 ```
 
-## Directions:
+## Directions for `PasswordGenerate.py`  
 - Create a function `generate` that has parameter of length that determines the length of the password. 
 - Your function should include all letters and digits (optionally include punctuation)
 - It should randomly pick from available characters. 
-- Call `generate` and test your outputs.  
 - Test `generate` by prompting for user input
 
+---
 
-## Next Class:
-We will use generate passwords and see how long they take to be brute-forced by various password - crackers 
+# Password Attack Lab
+In this lab you will test two common methods to password cracking: brute force and a dictionary attack. In both you will adjust values within the code and note the change it has upon the program's ability to crack a password.  
 
+## Brute Force  
+
+
+## Dictionary Attack  
 
 
 
