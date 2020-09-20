@@ -8,10 +8,9 @@ Two txt files will be used to perform this attack.
 2. 370,000 common English words. 
 '''
 import time
+test_word = input("input a crappy password: ")
 
 ## change me depending on which file you want to access. 
-test = 'pa$$word11111'
-
 filepath = '1MillionPassword.txt'
 
 start = time.time()
@@ -24,7 +23,7 @@ with open(filepath) as fp:
         line = fp.readline()
         password = line.strip()
         
-        if(password == test):
+        if(password == test_word):
             found = True
             break
         else: 

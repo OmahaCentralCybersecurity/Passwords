@@ -7,7 +7,7 @@ def brute_force(passLen, password):
     start_time = time.time()
 
     guess = ""
-    correct = False
+    attempts = 0
 
     ### Change me to try various character combinations
     characters = string.ascii_lowercase + string.ascii_uppercase
@@ -18,10 +18,13 @@ def brute_force(passLen, password):
         #print(letters)
         if letters == password:
             guess = letters
+            
+            break
+        attempts += 1
     
     end_time = time.time()
     total_time = end_time - start_time
-    return guess, total_time
+    return guess, total_time, attempts
 
 
 #program
@@ -29,8 +32,8 @@ def brute_force(passLen, password):
 passLen =  int(input("How many characters for your password?: "))
 generated_password = generate(passLen)
 print(generated_password)
-guessed_pwd, time_taken = brute_force(passLen, generated_password)
+guessed_pwd, time_taken, num_attempts = brute_force(passLen, generated_password)
 
-print("The password",guessed_pwd, "took", time_taken, " seconds to guess. ")
+print("The password",guessed_pwd, "took", time_taken, "seconds to guess in", num_attempts, "attempts")
 
 
