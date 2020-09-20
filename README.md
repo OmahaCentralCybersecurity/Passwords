@@ -39,16 +39,17 @@ Instructions:
 **3. Run `BruteForce.py` a couple of times, changing the number of random characters in your password.  Note time taken given a certain number of characters and the number of guesses.  Try password lengths of 2, 3, 4, and 5. Run multiple tests.  Keep a log of the time it takes for each run.**  
 4. In `BruteForce.py` and change line 13 to add other characters and puntuation `string.ascii.punctuation`.  Do the same in your code for `generate()`.  
 **5. Calcuate how many guesses per second is your computer making (use time + num of attempts).  Explain how you can up with your answer.**   
-**6. What is the number of guesses needed to brute-force all 2 letter passwords? 3? 4? 5?**
-**7. Based on the time taken for the lengths of 2 - 5, how long would estimate it would take to brute-force a 6 character password? 7? 8?**
-**8. Why would the time taken rarely be equal to the numbers you just calcuated above? (For questions 6 and 7)**
-**9. Most users do not use a random assortment of characters and symbol, rather they use words, phrases that are meaningful to them.  Brainstorm a way that you could improve a brute-force attack where you know the user has entered meaningful words versus just random letters.  How could you guess smarter?** 
+**6. What is the number of guesses needed to brute-force all 2 letter passwords? 3? 4? 5?**  
+**7. Based on the time taken for the lengths of 2 - 5, how long would estimate it would take to brute-force a 6 character password? 7? 8?**  
+**8. Why would the time taken rarely be equal to the numbers you just calcuated above? (For questions 6 and 7)**  
+**9. Most users do not use a random assortment of characters and symbol, rather they use words, phrases that are meaningful to them.  Brainstorm a way that you could improve a brute-force attack where you know the user has entered meaningful words versus just random letters.  How could you guess smarter?**  
 
 
 ## Dictionary Attack  
 h/t [fendy Hackernoon article](https://hackernoon.com/i-cracked-40000-passwords-with-python-yours-might-have-been-one-of-them-3fr32je)
 
-
+1. Change your run command in Repl.it to run `DictionaryAttack.py` 
+2. 
 
 
 
