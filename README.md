@@ -31,14 +31,16 @@ In this lab you will test two common methods to password cracking: brute force a
 
 ## Brute Force  
 Instructions:
-1. Use your password generator - or - the one that is provided.  `generate()` is called in `BruteForce.py`, you may change that function call.  You will have to also change the import statement.  
-2. Look up the `itertools` documenation 
-3. Run `BruteForce.py` a couple of times, changing the number of random characters in your password.  Note time taken given a certain number of characters and the number of guesses.  Try password lengths of 2, 3, 4, and 5. Run multiple tests.
-4. Change 
-5. How many guesses per second is your computer making? 
-6. What is the number of guesses needed to brute-force all 2, 3, 4 and 5 character passwords?
+1. Use your password generator - or - the one that is provided.  `generate()` is called in `BruteForce.py`, you may change that function call.  You will have to also change the import statement.    
+2. Look up the `itertools` documenation and read how `itertools.product` works.   
+3. Run `BruteForce.py` a couple of times, changing the number of random characters in your password.  Note time taken given a certain number of characters and the number of guesses.  Try password lengths of 2, 3, 4, and 5. Run multiple tests.  
+4. In `BruteForce.py` and change line 13 to add other characters and puntuation `string.ascii.punctuation`.  Do the same in your code for `generate()`.  
+5. Calcuate how many guesses per second is your computer making (use time + num of attempts).  
+6. What is the number of guesses needed to brute-force all 2, 3, 4 and 5 character passwords?  
 7. Based on the time taken for the lengths of 2 - 5, how long would estimate it would take to brute-force a 6 character password? 7? 8? 
-8. 
+8. Why would the time taken hardly ever be equal to the numbers you just calcuated above? (For 6 and 7) 
+
+9. Most users do not use a random assortment of characters and symbol, rather they use words, phrases that are meaningful to them.  Brainstorm one way that you could improve a brute-force attack where the user has entered meaningful words versus just random letters.  How could you guess smarter?  
 
 
 ## Dictionary Attack  
