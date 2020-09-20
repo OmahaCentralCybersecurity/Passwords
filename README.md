@@ -30,6 +30,11 @@ letters = string.ascii_lowercase
 In this lab you will test two common methods to password cracking: brute force and a dictionary attack. In both you will adjust values within the code and note the change it has upon the program's ability to crack a password.  
 
 ## Brute Force  
+Instructions:
+1. Use your password generator - or - the one that is provided.  `generate()` is called in `BruteForce.py`, you may change that function call.  You will have to also change the import statement.  
+2. Run `BruteForce.py` a couple of times, changing the number of random characters in your password.  Note time taken given a certain number of characters and the number of guesses.  
+3. Try password lengths of 2, 3, 4, and 5.  Calculate/Estimate how long it would take (on average) to brute-force a 6 character password? 7? 8? 
+4. 
 
 
 ## Dictionary Attack  
